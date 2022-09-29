@@ -1,13 +1,12 @@
-![logo_tutorial](https://raw.githubusercontent.com/ssl-recsys/ssl-recsys.github.io/main/logo2_tutorial.png)
 ![uq_logo](https://raw.githubusercontent.com/ssl-recsys/ssl-recsys.github.io/main/uq_logo2.jpg)
 
 <br>
-Welcome! This is the page of our tutorial "<b>Self-Supervised Learning in Recommendation: Fundamentals and Advances</b>" at The Web Conference (WWW) 2022.
+Welcome! This is the page of our tutorial "<b>Self-Supervised Learning in Recommendation: Foundations, Methods and Prospects</b>" at WSDM 2023.
 
-(Last update: 19/04/2022)
+(Last update: 30/09/2022)
 
 ### Time
-CET 14:00 - 15:30, 26/04/2022
+TBA
 <hr>
 
 ### Description
@@ -81,6 +80,8 @@ This is a 90-minute lecture-style tutorial that includes:
 
 ### Our papers on self-supervised recommendation
 
++ [Self-Supervised Learning for Recommender Systems: A Survey](https://arxiv.org/abs/2203.15876).  <i><b>Submitted to TKDE</b></i> [[code]](https://github.com/Coder-Yu/SELFRec) <br>
+Junliang Yu, Hongzhi Yin, Xin Xia, Tong Chen, Jundong Li, Zi Huang
 + [Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation](https://arxiv.org/abs/2112.08679).  <i><b>SIGIR'22</b></i> [[code]](https://github.com/Coder-Yu/QRec/blob/master/model/ranking/SimGCL.py) <br>
 Junliang Yu, Hongzhi Yin, Xin Xia, Tong Chen, Lizhen Cui, Quoc Viet Hung Nguyen
 + [	On-Device Next-Item Recommendation with Self-Supervised Knowledge Distillation](https://arxiv.org/abs/2204.11091).  <i><b>SIGIR'22</b></i> [[code]]() <br>
