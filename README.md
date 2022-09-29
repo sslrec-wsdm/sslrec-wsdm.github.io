@@ -1,4 +1,4 @@
-# WWW'22 Tutorial
-## Self-Supervised Learning in Recommender Systems: Fundamentals and Advances
+# WSDM'23 Tutorial
+## Self-Supervised Learning in Recommender Systems: Foundations, Methods and Prospects
 
-[Tutorial page](https://ssl-recsys.github.io/)
+[Tutorial page](https://sslrec-wsdm.github.io/)
