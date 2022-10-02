@@ -11,7 +11,7 @@ TBA
 
 ### Description
 
-The neural architecture-based recommenders have demonstrated overwhelming advantages over their traditional counterparts. However, the highly sparse user behavior data often bottlenecks deep neural recommendation models to take full advantage of their capacity for better performance. Recently, self-supervised learning (SSL), which can enable training on massive unlabeled data with automatic data annotation, has received tremendous attention across multiple fields including recommender systems. It has turned out that SSL can significantly improve the recommendation quality by designing pretext tasks to discover supervisory signals from the raw data, serving as a natural antidote to the data sparsity issue. In this tutorial, we will systematically introduce the methodologies of applying SSL to recommendation. The topics to be covered include: (1) foundation and overview of self-supervised recommendation; (2) a comprehensive taxonomy of existing SSL-driven recommendation methods which is constructed based on the characteristics of pretext tasks; (3) how to apply SSL to various recommendation scenarios where different types of data and multiple optimization objectives are involved; (4) limitations in current research and future research directions; (5) an open-source toolkit to facilitate empirical comparisons and methodological development of self-supervised recommendation methods (released at https://github.com/Coder-Yu/SELFRec). 
+Recommender systems have become a necessity in this Internet era to offer personalization. However, in contrast to the increasing ease of model building and deployment, the lack of user behavioral data still remains a major pain point for modern recommender systems that constantly compromises recommendation performance. Recently, self-supervised learning (SSL), which can enable training on massive unlabeled data with automatic data annotation, has achieved tremendous success in many fields and been applied to an ever-expanding range of applications including recommendation. Many recent studies have demonstrated that all kinds of recommendation models can be significantly improved through learning with well-designed self-supervised tasks and data augmentations. In this tutorial, we will provide a panorama of the research efforts on self-supervised recommendation. Specifically, the content includes: (1) foundations and overview of self-supervised recommendation; (2) a comprehensive taxonomy of existing self-supervised recommendation methods; (3) how to apply SSL to various recommendation scenarios; (4) limitations in current research and future research directions. Additionally, we release an open-source toolkit to facilitate empirical comparisons and methodological development of self-supervised recommendation methods (released at https://github.com/Coder-Yu/SELFRec). 
 
 <hr>
 
@@ -22,10 +22,10 @@ The neural architecture-based recommenders have demonstrated overwhelming advant
 <img class="circlepic" src="https://raw.githubusercontent.com/ssl-recsys/ssl-recsys.github.io/main/junliang.jpg" />
 </td>
 <td align="center">
-<img class="circlepic" src="https://raw.githubusercontent.com/ssl-recsys/ssl-recsys.github.io/main/hongzhi.jpg" />
+<img class="circlepic" src="https://raw.githubusercontent.com/ssl-recsys/ssl-recsys.github.io/main/tongchen.jpg" />
 </td>
 <td align="center">
-<img class="circlepic" src="https://raw.githubusercontent.com/ssl-recsys/ssl-recsys.github.io/main/tongchen.jpg" />
+<img class="circlepic" src="https://raw.githubusercontent.com/ssl-recsys/ssl-recsys.github.io/main/hongzhi.jpg" />
 </td>
 </tr>
 <tr  style="border: none;">
@@ -33,10 +33,10 @@ The neural architecture-based recommenders have demonstrated overwhelming advant
 <b><a href="https://coder-yu.github.io/" style="color:#51247a;">Junliang Yu</a></b>
 </td>
 <td align="center">
-<b><a href="https://sites.google.com/view/hongzhi-yin/home" style="color:#51247a;">Hongzhi Yin</a></b>
+<b><a href="https://itee.uq.edu.au/profile/1253/rocky-chen" style="color:#51247a;">Tong Chen</a></b>
 </td>
 <td align="center">
-<b><a href="https://itee.uq.edu.au/profile/1253/rocky-chen" style="color:#51247a;">Tong Chen</a></b>
+<b><a href="https://sites.google.com/view/hongzhi-yin/home" style="color:#51247a;">Hongzhi Yin</a></b>
 </td>
 </tr>
 </table>
@@ -44,37 +44,42 @@ The neural architecture-based recommenders have demonstrated overwhelming advant
 
 #### Bio
 
-<b>Junliang Yu</b>  is a third-year Ph.D. student in the School of Information Technology and Electrical Engineering at the University of Queensland, jointly advised by A/Prof. Hongzhi Yin and Prof. Zi (Helen) Huang. He received his Bachelor and Master degrees from Chongqing University. His research interests include recommender systems, social media analytics, deep learning on graphs, and self-supervised learning. His recent research mainly focuses on efficient and explainable self-supervised learning for recommendation. He has 10+ publications on top-tier international venues such as KDD, WWW, ICDM, CIKM, AAAI, SIGIR, VLDBJ, and TKDE. He also served as the conference PC member of AAAI, CIKM, IJCAI, etc, and the journal reviewer for TOIS, TIST, TNNLS, TKDE, etc. 
+<b>Junliang Yu</b> is a final-year Ph.D. student with the School of Information Technology and Electrical Engineering at the University of Queensland, jointly advised by A/Prof. Hongzhi Yin and Prof. Zi (Helen) Huang. He received his Bachelor and Master degrees from Chongqing University. His research interests include recommender systems, social media analytics, deep learning on graphs, and self-supervised learning. His recent research mainly focuses on efficient and explainable self-supervised learning for recommendation. He has 10+ publications on top-tier international venues such as KDD, WWW, ICDM, CIKM, AAAI, SIGIR, VLDBJ, and TKDE. He also served as the conference PC member of AAAI, CIKM, IJCAI, etc, and the journal reviewer for TOIS, TIST, TNNLS, TKDE, etc. He has rich lecture experience and tutored one relevant course of social media analytics, and also has made oral presentations on multiple top-tier conferences.  
 
-<b>Hongzhi Yin</b> works as ARC Future Fellow and associate professor with The University of Queensland, Australia. He is leading the Responsible Big Data Intelligence Lab and was recognized as Field Leader of Data Mining & Analysis in The Australian’s Research 2020 magazine. His current main research interests include recommender system, graph embedding and mining, chatbots, social media analytics and mining, edge machine learning, trustworthy machine learning, decentralized and federated learning, and smart healthcare. He has published 180+ papers in the top conferences and journals, including 100+ CORE A* and 60+ CORE A, such as KDD (x15), IEEE TKDE (x14), SIGIR (x10), WSDM (x6), WWW (x6) and ACM TOIS (x11). He has won 6 Best Paper Awards such as ICDE’19 Best Paper Award, DASFAA’20 Best Student Paper Award, and ACM Computing Reviews’ 21st Annual Best of Computing Notable Books and Articles as well as one invited paper in the special issue of KAIS on the best papers of ICDM 2018. He is currently serving as Associate Editor for Springer Nature Computer Science, Editorial Board of Journal of Computer Science and Technology (JCST), Big Data Networks (specialty section of Frontiers in ICT, Frontiers in Digital Humanities, Frontiers in Big Data and Frontiers in Computer Science), Information, Guest Editors of ACM Transactions on Intelligent Systems and Technology, Information Systems, and World Wide Web. 
+<b>Dr. Tong Chen</b> is a Lecturer with the Data Science Discipline at The University of Queensland and a recipient of the ARC Discovery Early Career Reseracher Award. He received his PhD degree in Computer Science from The University of Queensland in 2020. Dr. Chen's research interests include data mining, machine learning, business intelligence, recommender systems, and predictive analytics. He has 60+ publications on top-tier international venues such as KDD, SIGIR, ICDE, AAAI, IJCAI, ICDM, WWW, TKDE, IJCAI, TOIS, CIKM, as well as the prestigious health informatics journal JBHI. He has been actively providing professional services to over 20 world-leading international conferences/journals in the fields of data mining, information retrieval and AI. For example, his roles include program committee member of WSDM, CIKM, SIGIR, KDD, ICDM and reviewer for TKDE, TOIS, TKDD and TNNLS. Dr. Chen’s recent research has been focused on trustworthy and lightweight graph mining and recommendation algorithms to embrace the era of edge computing and AIoT. Dr. Chen has ample track records in lecturing, witnessed by his course design and delivery experience in business analytics, full-course teaching experience in social media analytics and database systems, as well as invited talks on cutting-edge recommender systems at the WWW'22 Tutorial, ICDM’20 NeuRec Workshop, Beihang University, and Zhejiang University. He was one of the 17 nominees for the Most Effective Teacher in the Faculty of EAIT, The University of Queensland in 2022.
 
-<b>Tong Chen</b> is a Lecturer with the Data Science Discipline at The University of Queensland. He received his PhD degree in Computer Science from The University of Queensland in 2020. Dr. Chen’s research interests include data mining, machine learning, business intelligence, recommender systems, and predictive analytics. He has 40+ publications on top-tier international venues such as KDD, SIGIR, ICDE, AAAI, IJCAI, ICDM, WWW, TKDE, IJCAI, TOIS, CIKM, as well as the prestigious health informatics journal JBHI. He has been actively providing professional services to over 20 worldleading international conferences/journals in the fields of data mining, information retrieval and AI. For example, his roles include program committee member of IJCAI’21 (SPC), WSDM’21, CIKM’21 and IJCAI’20, reviewer for TKDE, TOIS, TKDD and TNNLS, as well as session chair for conferences CIKM’21, VLDB’20, and DASFAA’20.
+<b>Dr. Hongzhi Yin</b> works as ARC Future Fellow and associate professor with The University of Queensland, Australia. He was recognized as Field Leader of Data Mining & Analysis in The Australian's Research 2020 magazine, the recipient of the 2022 AI 2000 Most Influential Scholar Honorable Mention in Data Mining (10 Years Impact), and featured among the World's Top 2% Scientists List published by Stanford University (Single Year Impact) and AD Scientific Index 2022 (5 Years Impact). He received his doctoral degree from Peking University in July 2014, and his Ph.D. Thesis won the highly competitive Distinguished Doctor Degree Thesis Award of Peking University. His current main research interests include recommender systems, graph embedding and mining, chatbots, social media analytics and mining, edge machine learning, trustworthy machine learning, decentralized and federated learning, and smart healthcare. He has published 220+ papers with H-index 52, including 22 most highly cited publications in Top 1\% (CNCI), 120 CCF A and 70+ CCF B, 120 CORE A* and 70+ CORE A, such as KDD, SIGIR, WWW, WSDM, SIGMOD, VLDB, ICDE, AAAI, IJCAI, ACM Multimedia, ECCV, IEEE TKDE and TNNL, VLDB Journal and ACM TOIS. He has won 6 Best Paper Awards such as Best Paper Award at ICDE 2019, Best Student Paper Award at DASFAA 2020, ACM Computing Reviews' 21 Annual Best of Computing Notable Books and Articles, and Best Paper Award Nomination at ICDM 2018. Dr. Yin has rich lecture experience and taught 5 relevant courses such as information retrieval and web search, data mining, social media analytics, and responsible data science. He was nominated as Most Effective Teacher of EAIT Faculty in The University of Queensland for 2020, 2021 and 2022. He has delivered 12 keynotes, invited talks and tutorials at the top international conferences such as tutorials at WWW 2017, KDD 2017 and Web Conference 2022.
 
 <hr>
 
 ### Outline
 
 This is a 3-hour lecture-style tutorial that includes:
-- <b>Introduction</b>  
+- <b>I. Introduction (20 mins)</b>  
   - Overview of Recommendation
-  - History of SSL in Recommendation   
-- <b>Taxonomy of Self-Supervised Recommendation Methods</b>  
-  - Formulation of self-supervised recommendation
-  - Taxonomy and training paradigms
-- <b>Data Augmentation Techniques</b> 
-- <b>SSL Methods for Recomendation</b> 
-   - Contrastive mehthods
-   - Predictive methods
-   - Generative methods
-   - Hybrid methods
-- <b>Opensource Toolkit for Self-Supervised Recommendation</b> 
-- <b>Limitations and Future Research Trends</b> 
-- <b>Q&A</b> (10 mins)
+  - Development of self-supervised recommendation  
+- <b>II. Definition and Taxonomy of self-supervised recommendation(20 mins)</b>  
+  - Definition and formulation
+  - Connections to related concepts and topics
+  - Taxonomy and common paradigms
+- <b>III. Representative Methods (30 mins)</b> 
+  - Contrastive Methods
+  - Predictive Methods
+  - Generative Methods
+  - Hybrid Methods  
+- <b>IV. Apply SSL to Different Scenarios (60 mins)</b> 
+   - SSL on social recommendation
+   - SSL on session-based recommendation
+   - Multi-view self-supervised recommendation 
+   - Efficient self-supervised recommendation 
+- <b>V. Limitations and Future Research Trends (20 mins)</b> 
+- <b>VI. Open-source Toolkit for Self-Supervised Recommendation (15 mins)</b> 
+- <b>VII. Conclusions and Discussions (15 mins)</b> (10 mins)
 <hr>
 
 ### Targeted Audience
 
- The tutorial targets at a broad range of audiences from recommendation and other related areas, including academic and industrial researchers, graduate students, and practitioners. After the tutorial, we expect the audience will have a grasp of basic SSL strategies for enhancing recommendation, and gain real-world practice experiences through working on the released opensource toolkit. As for the prerequisite, basic knowledge of information retrieval and recommendation is preferred, and the tutorial will also introduce the foundation for better audience engagement.
+The tutorial targets a broad range of audiences from recommendation to other related areas. Graduate students, practitioners, and academic and industrial researchers all can benefit from this tutorial. As for the prerequisite, basic knowledge of information retrieval and recommendation is preferred. The tutorial will also introduce the foundation for better audience engagement. After the tutorial, we expect the audience can: 1) grasp the basic concepts and taxonomy of self-supervised recommendation; 2) get a bird's-eye view of this realm to avoid getting lost in a bewildering array of self-supervised recommendation approaches; 3) keep up with the latest progress of self-supervised recommendation; and 4) know to apply SSL to common recommendation scenarios.  We also aim to provide participants with an insightful discussion of the imitations in current research and future research directions.
 
 <hr>
 
