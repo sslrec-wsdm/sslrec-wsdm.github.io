@@ -52,6 +52,18 @@ Recommender systems have become a necessity in this Internet era to offer person
 
 <hr>
 
+### Covered Topics
+
+In this tutorial, we will provide a panorama of self-supervised recommendation. Specifically, the topics to be covered include:
+
+- **Foundations and overview of self-supervised recommendation**. We will give an exclusive definition and formulation of self-supervised recommendation, display the development of this line of research, and discuss its connections to related topics like pre-training and contrastive learning. 
+- **Taxonomy of self-supervised recommendation**. We will introduce a comprehensive taxonomy of self-supervised recommendation, which is based on the distinct characteristics of different self-supervised tasks. Particularly, the taxonomy divides existing self-supervised methods into four categories: contrastive, generative, predictive, and hybrid. For each category, we discuss its overall idea, representative methods, and pros and cons. 
+- **Applications of SSL in different recommendation scenarios**. We will share our experience of applying SSL to multiple recommendation scenarios including social recommendation, session-based recommendation, on-device recommendation and general graph recommendation to participants. Specifically, we will dive into the principle of SSL and demystify why SSL can improve recommendation performance.
+- **Limitations and future research directions of self-supervised recommendation**. Current research efforts mainly focus on using SSL to improve recommendation accuracy. We will analyze the limitations of current research and identify some promising research directions which are worth exploring. 
+- **Benchmarking self-supervised recommendation**. We will release a library [SELFRec](https://github.com/Coder-Yu/SELFRec) to benchmark self-supervised recommendation. It contains many representative methods and provides user-friendly interfaces for fast development of self-supervised recommendation models. The empirical comparison of different methods can be easily conducted with it under a fair experimental setting.
+
+<hr>
+
 ### Outline
 
 This is a 3-hour lecture-style tutorial that includes:
