@@ -1,5 +1,5 @@
-![uq_logo](https://raw.githubusercontent.com/ssl-recsys/ssl-recsys.github.io/main/uq_logo2.jpg)
-
+![uq_logo](https://raw.githubusercontent.com/sslrec-wsdm/sslrec-wsdm.github.io/main/uq_logo2.jpg)
+![conf_logo](https://raw.githubusercontent.com/sslrec-wsdm/sslrec-wsdm.github.io/main/conf_logo.png)
 <br>
 Welcome! This is the page of our tutorial "<b>Self-Supervised Learning in Recommendation: Foundations, Methods and Prospects</b>" at WSDM 2023.
 
