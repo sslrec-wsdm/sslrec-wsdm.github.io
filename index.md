@@ -86,7 +86,7 @@ This is a 3-hour lecture-style tutorial that includes:
    - Efficient self-supervised recommendation 
 - <b>V. Limitations and Future Research Trends (20 mins)</b> 
 - <b>VI. Open-source Toolkit for Self-Supervised Recommendation (15 mins)</b> 
-- <b>VII. Conclusions and Discussions (15 mins)</b> (10 mins)
+- <b>VII. Conclusions and Discussions (15 mins)</b>
 <hr>
 
 ### Targeted Audience
