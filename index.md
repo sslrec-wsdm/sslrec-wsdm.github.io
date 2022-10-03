@@ -30,13 +30,13 @@ Recommender systems have become a necessity in this Internet era to offer person
 </tr>
 <tr  style="border: none;">
 <td align="center">
-<b><a href="https://coder-yu.github.io/" style="color:#51247a;">Junliang Yu</a></b>
+<b><a href="https://coder-yu.github.io/" style="color:#155799;">Junliang Yu</a></b>
 </td>
 <td align="center">
-<b><a href="https://itee.uq.edu.au/profile/1253/rocky-chen" style="color:#51247a;">Tong Chen</a></b>
+<b><a href="https://itee.uq.edu.au/profile/1253/rocky-chen" style="color:#155799;">Tong Chen</a></b>
 </td>
 <td align="center">
-<b><a href="https://sites.google.com/view/hongzhi-yin/home" style="color:#51247a;">Hongzhi Yin</a></b>
+<b><a href="https://sites.google.com/view/hongzhi-yin/home" style="color:#155799;">Hongzhi Yin</a></b>
 </td>
 </tr>
 </table>
