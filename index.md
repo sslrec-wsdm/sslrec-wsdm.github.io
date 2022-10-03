@@ -1,9 +1,11 @@
-![uq_logo](https://raw.githubusercontent.com/sslrec-wsdm/sslrec-wsdm.github.io/main/uq_logo2.jpg)
 ![conf_logo](https://raw.githubusercontent.com/sslrec-wsdm/sslrec-wsdm.github.io/main/conf_logo.png)
+![uq_logo](https://raw.githubusercontent.com/sslrec-wsdm/sslrec-wsdm.github.io/main/uq_logo2.jpg)
 <br>
+<br>
+
 Welcome! This is the page of our tutorial "<b>Self-Supervised Learning in Recommendation: Foundations, Methods and Prospects</b>" at WSDM 2023.
 
-(Last update: 30/09/2022)
+(Last update: 03/10/2022)
 
 ### Time
 TBA
